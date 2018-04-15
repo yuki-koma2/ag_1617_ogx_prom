@@ -1,0 +1,79 @@
+.text-box{
+  width: auto;
+  height: auto;
+  background-color: rgba(50, 50, 50, 0.4);
+}
+.text-left{
+  text-align: left;
+}
+.page-top-back {
+  background-color: rgba(3, 126, 243,0.5);
+  width: 100%;
+  height: auto;
+  z-index: 4;
+}
+.challenge{
+  color: #f48924;
+  font-size: 135%;
+}
+.factor{
+  margin-bottom: 50px;
+}
+.subtitle{
+  color: #999999;
+  font-size:20px;
+  margin-bottom: 30px;
+}
+.name-content {
+  text-align: center;
+}
+.college{
+  margin-top: 30px;
+}
+.name-content1{
+  text-align: left;
+}
+.name-content1 p{
+  text-align: left;
+  font-size:16px;
+}
+.name-content2{
+  margin-top:30px;
+}
+.name-content2 p{
+  text-align: left;
+  font-size:16px;
+}
+.name-content3{
+  margin-top: 30px;
+}
+.voice2{
+  background-color: #eee;
+}
+.question{
+  color: #555;
+  text-decoration:underline;
+  margin-top: 20px;
+}
+.infomation-closing{
+  padding-left: 5%;
+}
+.text-center{
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .page-top-back {
+    background-color: rgba(3, 126, 243,0.5);
+    width: 100%;
+    height: auto;
+    z-index: 4;
+  }
+  .infomation{
+    padding-left: 20%;
+    text-align: left;
+  }
+  .infomation-closing{
+    padding-left: 27%;
+  }
+}
